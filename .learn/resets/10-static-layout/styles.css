@@ -1,25 +1,4 @@
 /* your code here */
-wrapper {
-	display: flex;
-}
-header {
-	margin: 20px;
-}
-
-nav {
-	height: 98%;
-	width: 160px;
-	position: absolute;
-	margin-left: 20px;
-}
-
-section {
-	height: 96%;
-	width: 86%;
-	margin-left: 190px;
-	margin-right: 20px;
-	position: absolute;
-}
 
 /**************************************
 DON'T CHANGE ANYTHING AFTER THIS LINE

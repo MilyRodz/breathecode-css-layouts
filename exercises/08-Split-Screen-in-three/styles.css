@@ -3,10 +3,31 @@ body {
 }
 #sectionA {
 	background: blue;
+	display: flex;
+	float: left;
+	width: 33%;
+	padding: 10px;
 }
 #sectionB {
 	background: red;
+	display: flex;
+	float: left;
+	width: 33%;
+	padding: 10px;
 }
 #sectionC {
 	background: green;
+	display: flex;
+	float: left;
+	width: 33%;
+	padding: 10px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+* {
+	box-sizing: border-box;
 }
